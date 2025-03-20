@@ -69,3 +69,4 @@ typings/
 .env
 .next
 /dist
+public/config.json
