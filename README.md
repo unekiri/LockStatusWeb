@@ -1,2 +1,3 @@
 # LockStatusWeb
-![image](https://github.com/user-attachments/assets/90f75f5d-ed36-4af0-86c5-184a8649739e)
+![image](https://github.com/user-attachments/assets/d54efc25-dfca-4076-9209-96c6041f220d)
+
