@@ -69,3 +69,6 @@ typings/
 .env
 .next
 /dist
+
+# 設定ファイル
+src/config/*.json
