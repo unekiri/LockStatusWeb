@@ -20,8 +20,16 @@ const LockStatus: React.FC<LockStatusProps> = ({ isLocked }) => {
     });
 
     client.on('message', (receivedTopic, message) => {
+      console.log('メッセージを受信:', {
+        topic: receivedTopic,
+        message: message.toString(),
+        rawMessage: message
+      });
+      
       if (receivedTopic === topic) {
         const messageStr = message.toString();
+        console.log('メッセージを処理:', messageStr);
+        
         if (messageStr === 'opened') {
           setStatus(false); // 解錠中
         } else if (messageStr === 'locked') {
