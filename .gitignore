@@ -70,5 +70,8 @@ typings/
 .next
 /dist
 
-# 設定ファイル
-src/config/*.json
+# 設定は .env で行う（.env.example を参照）
+.env.local
+
+# ビルド成果物はコミットしない
+/build
